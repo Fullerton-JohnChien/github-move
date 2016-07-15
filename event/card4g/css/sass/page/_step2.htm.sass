@@ -1,0 +1,227 @@
+.cht-step2-container, .eng-step2-container
+	width: 1080px
+	margin: 0 auto 300px
+	background-color: clor(light,1,20)
+	header
+		height: 150px
+		+dfx(5,n,n,n,2)
+		padding: 35px 80px
+		box-sizing: border-box
+		background-color: clor(basic,0,0)
+		h4
+			+fsiz(60)
+			.telecom
+				+fsiz(40)
+				text-align: right
+				line-height: 50px
+			.cardName
+				+fsiz(60)
+	main
+		padding: 75px 78px 50px
+		box-sizing: border-box
+		.payTitle, .payTitleEng
+			margin-bottom: 75px
+			+fsiz(90)
+			color: clor(light, 2, 35)
+			text-align: center
+		.payTitleEng
+			+fsiz(70)
+			color: black
+			font-weight: 600
+		.itemWrap
+			+dfx(5,n,n,n,n)
+			margin-bottom: 100px
+			img
+				width: 464px;	height: 302px
+			hgrounp
+				width: 435px
+				padding: 30px 0
+				box-sizing: border-box
+				h2
+					margin-bottom: 15px
+					span
+						+fsiz(70)
+						&.days
+							color: clor(onge,0,0)
+				.h2eng
+					span
+						+fsiz(52)
+				h3
+					margin-bottom: 50px
+					+fsiz(40)
+					color: clor(dark,1,10)
+					span
+						+fsiz(40)
+						color: clor(dark,1,10)
+				.h3eng
+					+fsiz(36)
+					span
+						+fsiz(36)
+				h4
+					+fsiz(36)
+					text-align: right;
+					strong
+						+fsiz(36)
+						font-weight: bold
+					.amount
+						+fsiz(64)
+						color: clor(onge,0,0)
+						font-weight: bold
+				.h4eng
+					+fsiz(30)
+					font-weight: bold
+					strong
+						+fsiz(30)
+		.personal
+			margin-bottom: 20px
+			+fsiz(48)
+			color: clor(light,2,10)
+		form
+			.personalData, .payment
+				label, >div
+					display: block
+					margin-bottom: 20px
+					.sel, .paySel, .expireMonthSel, .expireYearSel
+						border: 1px solid transparent
+					.sel, .paySel, .expireMonthSel, .expireYearSel, input[type=text], input[type=password], input[type=number]
+						width: 100%;	height: 150px
+						padding-left: 20px;
+						border-radius: 20px
+						+fsiz(65)
+				.clause
+					position: relative
+					#chk
+						width: 80px;	height: 80px
+						margin-right: 10px
+					.chk, a
+						+fsiz(48)
+					.chk
+						display: inline-block
+						width: 80%
+						vertical-align: top
+						line-height: 1.4
+					.overlay
+						width: 100%;	height: 100vh
+						background-color: hsla(0,0%,0%,.7)
+						position: fixed;	top: 0;	left: 0
+						z-index: 1
+						display: none
+					.clauseWrap
+						height: 80vh
+						padding: 45px
+						box-sizing: border-box
+						background-color: white
+						position: absolute;	top: -80px;	left: 0
+						z-index: 2
+						display: none
+						.closeBtn
+							width: 100px;	height: 100px
+							background-color: clor(basic,0,0)
+							+fsiz(80)
+							color: black
+							text-align: center
+							line-height: 1.4
+							cursor: pointer
+							position: absolute;	top: 0;	right: 0
+						.visible						
+							height: 60vh;
+							margin-top: 70px;
+							overflow-y: auto
+							.title
+								margin-bottom: 50px
+								+fsiz(46)
+								color: #222
+								text-align: center
+							h2
+								margin-bottom: 10px
+								+fsiz(22)
+								color: black
+								font-weight: bold
+							h3
+								margin-bottom: 5px
+								color: black
+								font-weight: bold
+							>div
+								margin-bottom: 36px
+								+fsiz(14)
+								line-height: 1.7
+								color: clor(middle,2,10)
+								ol, ul
+									padding-left: 55px
+									list-style-type: decimal
+									li
+										+fsiz(14)
+										color: clor(middle,2,10)
+									//zh
+									&.zh
+										padding-left: 60px
+										list-style-type: cjk-ideographic
+								ul
+									padding-left: 30px								
+
+			.payment
+				margin-top: 150px
+				>h4
+					margin-bottom: 15px
+					+fsiz(48)
+				label, >div
+					.cardNumGroup
+						+dfx(5,n,n,n,2)
+						background-color: white
+						border-radius: 20px
+						>div
+							+fsiz(50)
+						.n1, .n2, .n3, .n4
+							width: 20%;
+							background-color: transparent
+							border: none
+				.hasFlex
+					+dfx(n,n,n,n,2)
+					.title, .titleEng
+						width: 25%
+						+fsiz(48)
+						margin-right: 30px
+					.titleEng
+						text-align: right
+					.expireMonthSel, .expireYearSel, .secureCode, .captcha
+						width: 30%
+						margin-right: 40px	
+				.renewCap
+					+dfx(2,n,n,n,n)
+					margin-bottom: 50px
+					.btnWrap, .btnWrap span
+						margin-right: 5%
+						+fsiz(48)			
+						cursor: pointer
+						span
+							margin-left: 5px
+							margin-right: 0
+				.receiptDonate
+					margin-bottom: 150px
+					#receipt
+						width: 80px;	height: 80px
+						margin-right: 10px
+						vertical-align: top
+					span
+						display: inline-block
+						width: 80%
+						+fsiz(42)
+						line-height: 1.3
+		.notice
+			margin-bottom: 100px
+			*
+				+fsiz(40)
+				color: #fb0007
+			h4
+				margin-bottom: 15px
+			ul
+				list-style: disc
+				padding-left: 40px
+				li
+					line-height: 1.3
+		.btnWrap
+			+btnWrap
+			.submit
+				+btnBasic
+				width: 920px;	height: 170px
+				+fsiz(65)

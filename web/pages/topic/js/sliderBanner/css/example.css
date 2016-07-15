@@ -1,0 +1,116 @@
+/*!
+ * Bootstrap v2.2.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+img {
+  /* Responsive images (ensure images don't scale beyond their parents) */
+
+  max-width: 100%;
+  /* Part 1: Set a maxium relative to the parent */
+
+  width: auto\9;
+  /* IE7-8 need help adjusting responsive images */
+
+  height: auto;
+  /* Part 2: Scale the height according to the width, otherwise you get stretching */
+
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.slides {
+  width: 472px;
+  height: 472px;
+  position: absolute;
+}
+.slidesjs-container{
+  z-index: 1;
+}
+.slides .slidesjs-navigation {
+   margin-top: -72px;
+    position: absolute;
+    z-index: 9;
+}
+a.slidesjs-next,  a.slidesjs-previous,  a.slidesjs-play,  a.slidesjs-stop {
+  
+  background-repeat: no-repeat;
+  display: block;
+  width: 27px;
+  height: 53px;
+  overflow: hidden;
+  /*text-indent: -9999px;*/
+  float: left;
+  margin-right: 5px;
+}
+a.slidesjs-next {
+  background: url(../arrow-right.png) no-repeat;
+  color: transparent;
+  margin-left: 75px;
+}
+a:hover.slidesjs-next {
+  
+}
+a.slidesjs-previous {
+  background: url(../arrow-left.png) no-repeat;
+  color: transparent;
+  margin-left: 20px;
+}
+a:hover.slidesjs-previous {
+ 
+}
+a.slidesjs-play {
+  display: none;
+}
+a:hover.slidesjs-play {
+  background-position: -25px -18px;
+}
+a.slidesjs-stop {
+  display: none;
+}
+a:hover.slidesjs-stop {
+  background-position: -41px -18px;
+}
+.slidesjs-pagination {
+  margin: -61% 10px 0 0;
+  float: right;
+  list-style: none;
+  position: relative;
+  z-index: 99
+}
+.slidesjs-pagination li {
+  margin: 0;
+  display: -ms-grid\0;
+
+}
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  margin-bottom: 10px;
+  background-image: url(../pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+.slidesjs-pagination li a.active,  .slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+.slides a:link,  #slides a:visited {
+  color: transparent;
+}
+.slides a:hover,  #slides a:active {
+  color: #9e2020
+}
+.navbar {
+  overflow: hidden
+}

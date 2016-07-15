@@ -1,0 +1,9 @@
+.Banner_pic {
+	width: 100%;
+	height: 380px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	display: block;
+	margin-left: auto;
+}

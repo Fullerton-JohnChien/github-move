@@ -1,0 +1,111 @@
+.Banner-btn-left {
+	color: #FFFFFF;
+	font-size: 80px;
+	line-height: 80px;
+	position: absolute;
+	font-weight: 300;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	display: block;
+	margin-top: 170px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	z-index: 1;
+	width: 40px;
+}
+.Banner-btn-right {
+	color: #FFFFFF;
+	font-size: 80px;
+	line-height: 80px;
+	position: absolute;
+	font-weight: 300;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	display: block;
+	margin-top: 170px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 915px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	z-index: 1;
+	width: 40px;
+	text-align: center;
+}
+#wrapper {
+	position: relative;
+	width: 640px;
+	height: 400px;
+}
+#banner {
+	position: relative;
+	width: 640px;
+	height: 400px;
+	overflow: hidden;
+}
+.imgList {
+	position: relative;
+	width: 4800px;
+	overflow: hidden;
+}
+.imgList li {
+	float: left;
+	display: inline;
+}
+#wrapper2 {
+	position: relative;
+	width: 600px;
+	height: 400px;
+}
+#banner2 {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+}
+.imgList2 {
+	position: relative;
+	width: 4800px;
+	overflow: hidden;
+}
+.imgList2 li {
+	float: left;
+	display: inline;
+}
+.popupMapPrev2 {
+	width: 300px;
+	background-color: white;
+	box-shadow: 0 0 10px gray;
+}
+.popupMapPrev2 img {
+	width: 300px;
+	height: 206px;
+}
+.popupMapPrev2 .pointInfo2 {
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	align-items: center;
+	-webkit-flex-align-items: center;
+	-moz-flex-align-items: center;
+	-ms-align-items: center;
+}
+.popupMapPrev2 .pointInfo2 h2 {
+	width: 100%;
+	margin-bottom: 12px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.875rem;
+}
+.img-tripadvisor2 {
+	background-image: url("../img/spritesheet.png");
+}

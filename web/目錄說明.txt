@@ -1,0 +1,5 @@
+ajax : ajax 接收程式
+css : 站台CSS
+img : 站台圖檔
+js : 站台 java script 
+pages : 站台頁面程式

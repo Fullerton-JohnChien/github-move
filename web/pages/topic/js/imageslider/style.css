@@ -1,0 +1,67 @@
+.gallery {
+    width: 1320px;
+    margin: 0 auto;
+    padding-top: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery .holder {
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    margin: 0 auto
+}
+
+.gallery .holder ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 30000px;
+}
+
+.gallery .holder ul li {
+    display: inline-block;
+    width: 240px;
+    padding: 0 20px;
+    vertical-align: top;
+}
+
+.gallery .holder ul li img {
+    display: block;
+}
+
+.next,
+.prev {
+    position: absolute;
+    right: 0px;
+    top: 41%;
+    margin-top: -30px;
+    width: 27px;
+    height: 53px;
+    background: url(arrow-right.png) no-repeat;
+    z-index: 20;
+    overflow: hidden;
+    text-indent: -9999px;
+    outline: none;
+    cursor: pointer;
+}
+
+.next-disable {
+    background: url(arrow-right.png) no-repeat;
+}
+
+.prev {
+    background: url(arrow-left.png) no-repeat;
+    right: auto;
+    left: 0px;
+}
+
+.prev-disable {
+    background: url(arrow-left.png) no-repeat;
+}
+.gallery .holder  p{
+	font-size: 14px;
+    color: #000;
+}

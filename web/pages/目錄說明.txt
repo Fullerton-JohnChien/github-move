@@ -1,0 +1,14 @@
+about : 關於我們
+area : 地區
+author : 作者專區
+booking : 旅宿訂房
+common : 共用頁面
+contact : 聯絡我們
+cooperation : 企業合作
+location : 觀光指南
+member : 會員中心
+privacy : 隱私政策
+service : 客服中心
+terms : 服務條款
+topic : 主題企劃
+trip : 旅行遊記

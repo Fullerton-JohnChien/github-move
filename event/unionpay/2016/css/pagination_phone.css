@@ -1,0 +1,63 @@
+/*Common*/
+
+div.pagination {
+	overflow: hidden;
+	font-size: 28px;
+	height: 50px;
+	line-height: 28px;
+	width: 630px;
+}
+div.pagination ul {
+	list-style: none;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0px;
+	line-height: 16px;
+}
+div.pagination li {
+    display: inline;
+}
+
+
+/*Blue Style*/
+div.pagination.manu {
+	text-align: center;
+	width: 640px;
+	height: 135px;
+	display: block;
+	padding-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 85px;
+	background-color: #FFFFFF;
+}
+div.pagination.manu a {
+	border: 1px solid #FFF; 
+	text-decoration: none; /* no underline */
+	color: #666;
+}
+div.pagination.manu a,
+div.pagination.manu .current,
+div.pagination.manu .disabled {
+	padding-top: 4px;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 4px;
+	border-radius: 25px;
+	}
+div.pagination.manu a:hover,
+div.pagination.manu a:active {
+	border: 1px solid #00BFFF;
+	color: #00BFFF;
+}
+div.pagination.manu .current {
+	/* border: 1px solid #6392B8; */
+	font-weight: bold;
+	background-color: #00BFFF;
+	color: #FFF;
+}
+div.pagination.manu .disabled {
+	/* border: 1px solid #EEE; */
+	color: #DDD;
+}

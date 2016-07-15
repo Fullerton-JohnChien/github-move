@@ -1,0 +1,42 @@
+.popupCollect {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.popupCollect .closeBtn {
+    width: 30px;
+    height: 30px;
+    background-color: #ffe500;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    cursor: pointer;
+}
+
+.popupCollect .closeBtn i {
+	margin: 5px 0 0 5px;
+	background-image: url(../img/spritesheet.png);
+	display: block;
+}
+
+.popupCollect h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #212121;
+}
+.popupCollect li{
+  line-height: 24px;
+  font-size: 12px;
+  list-style-type: decimal;
+  list-style-position: inside;
+}

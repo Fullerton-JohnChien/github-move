@@ -1,0 +1,84 @@
+.img-map-hualien, .img-map-kaohsiung, .img-map-pingtung, .img-map-taichung, .img-map-tainan,
+.img-map-taipei, .img-taiwanarea, .img-taichung, .img-kaohsiung, .img-hualien,
+.img-taipei, .img-tainan, .img-pingtung {
+  background-image: url("../img/spritesheet-area.png");
+  display: inline-block;
+}
+
+.img-map-hualien {
+  background-position: 0px 0px;
+  width: 220px;
+  height: 220px;
+}
+
+.img-map-kaohsiung {
+  background-position: 0px -220px;
+  width: 220px;
+  height: 220px;
+}
+
+.img-map-pingtung {
+  background-position: 0px -440px;
+  width: 220px;
+  height: 220px;
+}
+
+.img-map-taichung {
+  background-position: 0px -660px;
+  width: 220px;
+  height: 220px;
+}
+
+.img-map-tainan {
+  background-position: 0px -880px;
+  width: 220px;
+  height: 220px;
+}
+
+.img-map-taipei {
+  background-position: 0px -1100px;
+  width: 220px;
+  height: 220px;
+}
+
+.img-taiwanarea {
+  background-position: 0px -1320px;
+  width: 172px;
+  height: 324px;
+}
+
+.img-taichung {
+  background-position: 0px -1644px;
+  width: 86px;
+  height: 41px;
+}
+
+.img-kaohsiung {
+  background-position: -86px -1644px;
+  width: 78px;
+  height: 94px;
+}
+
+.img-hualien {
+  background-position: 0px -1685px;
+  width: 66px;
+  height: 113px;
+}
+
+.img-taipei {
+  background-position: -66px -1738px;
+  width: 63px;
+  height: 57px;
+}
+
+.img-tainan {
+  background-position: -164px -1644px;
+  width: 54px;
+  height: 48px;
+}
+
+.img-pingtung {
+  background-position: -164px -1692px;
+  width: 52px;
+  height: 94px;
+}

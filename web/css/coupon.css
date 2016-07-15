@@ -1,0 +1,395 @@
+.coupon-container {
+	width: 960px;
+	margin: 45px auto 90px;
+}
+
+.coupon-container .title {
+	padding-bottom: 14px;
+	font-size: 1.875rem;
+	color: #222;
+	text-align: center;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+.coupon-container .title:after {
+	content: "";
+	width: 65px;
+	height: 1px;
+	margin: 0 auto;
+	background-color: black;
+	display: block;
+	position: relative;
+	top: 15px;
+}
+
+.coupon-container .tile {
+	min-height: 630px;
+	margin-top: 50px;
+	background-color: white;
+	display: flex;
+}
+
+.coupon-container .tile aside {
+	flex: 0 1 169px;
+	border-right: 1px solid #ededed;
+}
+
+.coupon-container .tile aside dt,
+.coupon-container .tile aside dd {
+	cursor: pointer;
+}
+
+.coupon-container .tile aside dt {
+	height: 42px;
+	margin-top: -1px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	color: #222;
+	line-height: 2.625;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+}
+
+.coupon-container .tile aside dt.active {
+	background-color: #ffe500;
+}
+
+.coupon-container .tile aside dd {
+	margin-left: 15px;
+	line-height: 40px;
+	font-size: 0.875rem;
+	padding-left: 10px;
+	border-left: 1px solid #d4d4d4;
+}
+
+.coupon-container .tile aside dd.active {
+	border-left: 1px solid #f3bd1c;
+	color: #f3bd1c;
+}
+
+.coupon-container .tile aside dd:hover {
+	border-left: 1px solid #f3bd1c;
+	color: #f3bd1c;
+}
+
+.coupon-container .tile article {
+	flex: 1;
+}
+
+.coupon-container .tile article .wrapper {
+	width: 662px;
+	margin: 42px auto;
+}
+
+.coupon-container .tile article .wrapper .sortBar {
+	margin-bottom: 20px;
+	padding: 12px 10px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	display: flex;
+	justify-content: space-between;
+}
+
+.coupon-container .tile article .wrapper .sortBar * {
+	font-size: 0.875rem;
+}
+
+.coupon-container .tile article .wrapper .sortBar .sortWrap {
+	color: #bbb;
+	cursor: pointer;
+}
+
+.coupon-container .tile article .wrapper .sortBar .sortWrap span {
+	margin-right: 3px;
+}
+
+.coupon-container .tile article .wrapper .sortBar .counterWrap {
+	color: #bbb;
+}
+
+.coupon-container .tile article .wrapper .sortBar .counterWrap .counter {
+	margin: 0 5px;
+}
+
+.coupon-container .tile article .wrapper .content {
+	margin-bottom: 68px;
+}
+
+.coupon-container .tile article .wrapper .content section {
+	box-sizing: border-box;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.coupon-container .tile article .wrapper .content section:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.coupon-container .tile article .wrapper .content section h1 {
+	font-weight: bold;
+}
+
+.coupon-container .tile article .wrapper .content section .subContent {
+	height: 60px;
+	margin-bottom: 10px;
+	line-height: 1.5;
+	font-size: .875rem;
+	color: #666;
+	overflow: hidden;
+}
+
+.coupon-container .tile article .wrapper .content section .ago {
+	float: right;
+}
+
+.coupon-container .tile article .wrapper .content section .ago i {
+	margin-right: 3px;
+	background-image: url("../img/spritesheet.png");
+	display: inline-block;
+	position: relative;
+	top: 2px;
+}
+
+.coupon-container .tile article .wrapper .content section .ago .time {
+	font-size: .875rem;
+	color: #c4c4c4;
+}
+
+.coupon-container .tile h2 {
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.coupon-container .tile .content li {
+	line-height: 20px;
+	list-style-type: decimal;
+	list-style-position: inside;
+	font-size: 14px;
+}
+
+.coupon-container .tile article .wrapper .dataList {
+	margin-top: 40px;
+}
+
+.coupon-container .tile article .wrapper .dataList section {
+	width: 180px;
+	border: 1px solid #eee;
+	color: #000;
+	display: inline-block;
+	margin: 0 30px 40px 0;
+}
+
+.coupon-container .tile article .wrapper .dataList section .couponHead {
+	width: 180px;
+	height: 124px;
+	background-image: url(../img/denomination.png);
+}
+
+.coupon-container .tile article .wrapper .dataList section.coupon--disabled .couponHead {
+	width: 180px;
+	height: 124px;
+	background-image: url(../img/denomination-disabled.png);
+}
+
+.coupon-container .tile article .wrapper .dataList section .couponHead * {
+	color: #000;
+}
+
+.coupon-container .tile article .wrapper .dataList section.coupon--disabled * {
+	color: #ddd;
+}
+
+.coupon-container .tile article .wrapper .dataList section.coupon--disabled .couponHead * {
+	color: #fff;
+}
+
+.coupon-container .tile article .wrapper .dataList section h1 {
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+
+.coupon-container .tile article .wrapper .dataList section h1::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.coupon-container .tile article .wrapper .dataList section .info {
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.coupon-container .tile article .wrapper .dataList section .couponHead--discount .info {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.coupon-container .tile article .wrapper .dataList section span {
+	display: block;
+}
+
+.coupon-container .tile article .wrapper .dataList section .coin {
+	font-size: 40px;
+	font-weight: bold;
+	display: inline-block;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.coupon-container .tile article .wrapper .dataList section .couponHead--discount .coin {
+	line-height: 36px;
+}
+
+.coupon-container .tile article .wrapper .dataList section h2 {
+	text-align: center;
+	font-size: 11px;
+}
+
+.coupon-container .tile article .wrapper .dataList section h2 .column {
+	border-radius: 10px;
+	background-color: #fff;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	width: 134px;
+	height: 22px;
+	line-height: 22px;
+	margin: 4px auto 0;
+}
+
+.coupon-container .tile article .wrapper .dataList section.coupon--disabled h2 .column {
+	color: #ddd;
+	text-decoration: line-through;
+}
+
+.coupon-container .tile article .wrapper .dataList section .icon {
+	position: absolute;
+	top: -15px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 99em;
+	background: url(../img/coupon-icon.png) #000 center no-repeat;
+}
+
+.coupon-container .tile article .wrapper .dataList section .coupon-period {
+	width: 160px;
+	/*height: 60px;*/
+	margin: 0 auto;
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+}
+
+.coupon-container .tile article .wrapper .dataList section .coupon-period * {
+	color: #999
+}
+
+.coupon-container .tile article .wrapper .dataList section .period__start,
+.coupon-container .tile article .wrapper .dataList section .period__end {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.coupon-container .tile article .wrapper .dataList section .period__divide {
+	display: inline-block;
+	width: 10px;
+	text-align: center;
+}
+
+.coupon-container .tile article .wrapper .dataList section .period__divide {
+	font-size: 24px;
+}
+
+.coupon-container .tile article .wrapper .dataList section .period__year {
+	float: left;
+	height: 0;
+	font-size: 12px;
+	transform: rotate(90deg) scale(0.8);
+	;
+	transform-origin: left top 0;
+}
+
+.coupon-container .tile article .wrapper .dataList section .period__date,
+.coupon-container .tile article .wrapper .dataList section .start__date {
+	font-size: 24px;
+}
+
+.coupon-container .tile article .wrapper .dataList section .couponTitle {
+	height: 40px;
+	padding: 0 20px;
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 10px;
+}
+
+.coupon-container .tile article .wrapper .dataList section a.btn {
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+	background-color: #eee;
+	text-decoration: none;
+	border-top: 1px solid #eee;
+}
+
+.coupon-container .tile article .wrapper .dataList section.coupon--disabled a.btn {
+	background-color: #fff;
+}
+
+.coupon-container .popupCollect {
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	padding: 30px;
+	box-sizing: border-box;
+	background-color: white;
+	position: fixed;
+	top: 50px;
+	left: 0;
+	right: 0;
+	z-index: 21;
+	display: none;
+}
+
+.coupon-container .popupCollect .closeBtn {
+	width: 30px;
+	height: 30px;
+	background-color: #ffe500;
+	position: absolute;
+	top: 0;
+	right: -30px;
+	cursor: pointer;
+}
+
+.coupon-container .popupCollect .closeBtn i {
+	background-image: url("../img/spritesheet.png");
+	margin: 5px 0 0 5px;
+	display: block;
+}
+
+.coupon-container .popupCollect h1 {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #212121;
+}
+
+.coupon-container .popupCollect li {
+	line-height: 24px;
+	font-size: 12px;
+	list-style-position: inside;
+}
+.coupon-container .popupCollect .content {
+	line-height: 24px;
+	font-size: 14px;
+}

@@ -1,0 +1,662 @@
+/************************************************************************************
+Layout
+*************************************************************************************/
+
+body {
+	background: #eee;
+	font-size: 14px;
+	font-family: "helvetica", "Arial", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
+
+#content1 {
+	width: 1400px;
+	margin: 0 auto;
+	background: rgba(0, 0, 0, .3);
+}
+
+.container {
+	width: 1020px;
+	min-width: 1020px;
+	margin: 0 auto;
+}
+
+.bg_color {
+	background: #fff;
+}
+
+
+/************************************************************************************
+Banner
+*************************************************************************************/
+
+.banner {
+	height: 640px;
+	background: #4b231f;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.date-block {
+	width: 86px;
+	height: 86px;
+	background: #fff;
+	border: 1px solid #000;
+	padding: 32px;
+	margin-top: -76px;
+	position: relative;
+	z-index: 9;
+}
+
+.date {
+	width: 84px;
+	margin: -20px auto;
+}
+
+.date-block li {
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 36px;
+	color: #000;
+}
+
+.date-block li:first-child {
+	text-align: left;
+	font-style: italic;
+	margin-bottom: 6px;
+}
+
+.date-block li:nth-child(2) {
+	font-size: 72px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 15px;
+}
+
+.title {
+	font-size: 40px;
+	text-align: right;
+	margin: -40px 0 64px 0;
+	color: #000;
+	padding-right: 26px;
+}
+
+.title span {
+	font-size: 16px;
+	color: #666;
+	text-align: right;
+	padding-top: 8px;
+	display: block;
+}
+
+.left-column {
+	display: inline-block;
+	width: 20%;
+	vertical-align: bottom;
+	padding: 0 97px 172px 0;
+}
+
+.right-column {
+	display: inline-block;
+	width: 683px;
+	vertical-align: top;
+	padding-bottom: 172px;
+}
+
+.blocktitle {
+	font-size: 30px;
+	color: #000;
+	padding: 24px 0 20px 0;
+}
+
+p {
+	color: #666;
+	line-height: 24px;
+}
+
+.padding30 {
+	padding-bottom: 30px;
+	font-size: 14px;
+}
+
+.pagetitle {
+	width: 10px;
+	font-size: 12px;
+	position: relative;
+	z-index: 999;
+}
+
+.english {
+	margin-bottom: 10px;
+	-webkit-writing-mode: vertical-lr;
+	-ms-writing-mode: bt-rl;
+	writing-mode: vertical-lr;
+	font-size: 14px;
+}
+
+.right {
+	float: right;
+	right: 20px;
+	padding-top: 23%;
+}
+
+.left {
+	float: left;
+	left: 20px;
+}
+
+.blackline {
+	width: 4px;
+	height: 74px;
+	background: #000;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 20px 0 0 4px;
+}
+
+
+/************************************************************************************
+Camping Tools
+*************************************************************************************/
+
+.camp-tools .blocktitle {
+	padding-top: 112px;
+	font-weight: bold;
+}
+
+.camp-tools .left {
+	padding-top: 29%;
+}
+
+.camp-tools p {
+	padding-bottom: 80px;
+	font-size: 14px;
+}
+
+.main-content {
+	margin-top: -80px;
+}
+
+ul.tabs {
+	text-align: right;
+	top: -242px;
+	position: relative;
+	left: -46px;
+}
+
+ul.tabs li {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	padding: 0 5px 3px 0px;
+}
+
+ul.tabs li:first-child {
+	margin-left: 100px;
+}
+
+ul.tabs li:nth-child(3) {
+	margin-left: 115px;
+}
+
+ul.tabs li a {
+	display: block;
+	width: 152px;
+	height: 152px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #eee;
+}
+
+ul.tabs li a:hover,
+ul.tabs li.active a {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 3px solid #fee600;
+}
+
+div.tab_container {
+	width: 100%;
+	margin-top: -19px;
+	padding-bottom: 120px;
+}
+
+div.tab_container .tab_content {
+	height: 824px;
+}
+
+.tools_tab {
+	width: 589px;
+	height: 672px;
+	background: #ddd;
+	float: right;
+	padding: 50px 0 0 0px;
+	margin-top: 102px;
+}
+
+.title-img {
+	left: 120px;
+	vertical-align: top;
+	position: relative;
+}
+
+.tools_big {
+	width: 472px;
+	height: 472px;
+}
+
+.tools h3,
+.tools p {
+	width: 277px;
+	padding: 20px 0 0 60px;
+}
+.tools h3{
+	font-weight: bold;
+}
+.tools p{
+	font-size: 14px;
+}
+.slider {
+	padding-bottom: 98px;
+	clear: both;
+}
+
+.container-big {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.slider h3 {
+	padding: 13px 0 13px;
+	font-weight: bold;
+	color: #000;
+}
+
+
+/************************************************************************************
+Focus tool
+*************************************************************************************/
+
+.focus {
+	clear: both;
+	background: #fff;
+}
+
+.focus .right {
+	padding-top: 3%;
+}
+
+.introduction {
+	width: 35%;
+	display: inline-block;
+	vertical-align: top;
+	background: #fff;
+}
+
+.layout-txt {
+	width: 44%;
+	height: 385px;
+	background: #fff;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.focus .introduction {
+	width: 360px;
+	vertical-align: top;
+	background: transparent;
+	margin-right: -1px;
+	padding: 77px 55px 0 0;
+	float: right;
+}
+
+h2 {
+	padding: 84px 0 6px 0;
+	font-size: 24px;
+	color: #000;
+}
+
+.introduction .blocktitle {
+	padding: 7px 0 28px 0;
+}
+
+h3 {
+	font-size: 18px;
+	padding: 9px 0 10px 0;
+}
+
+.focus p {
+	color: #000;
+	padding-top: 10px;
+}
+
+.image {
+	width: 55%;
+	position: relative;
+	display: inline-block;
+	float: right;
+	overflow: hidden;
+	background-color: #eee;
+}
+
+.inline {
+	display: inline;
+}
+
+
+/************************************************************************************
+Teaching
+*************************************************************************************/
+
+.teaching {
+	padding-bottom: 110px;
+}
+
+.teaching .left {
+	padding-top: 219px;
+}
+
+.photo-right {
+	padding: 120px 0 80px 0;
+	float: right;
+	right: 0;
+}
+
+.teaching .left-column {
+	width: 46%;
+	vertical-align: top;
+}
+
+.teachsteps h2 {
+	font-weight: bold;
+}
+
+.teachsteps .blocktitle {
+	padding: 6px 0 30px 0;
+	font-weight: bold;
+}
+
+.teachsteps h3 {
+	font-size: 16px;
+	padding-bottom: 9px;
+	font-weight: bold;
+}
+
+.teachsteps p {
+	font-size: 14px;
+	color: #666;
+	padding-bottom: 36px;
+}
+
+.teachsteps li {
+	font-size: 14px;
+	padding-bottom: 9px;
+}
+
+p.comment {
+	color: #666;
+	padding-top: 34px;
+}
+
+.sticker01 {
+	position: absolute;
+	left: 80px;
+	margin-top: 25px;
+}
+
+.teaching .right-column {
+	width: 43.6%;
+	padding-bottom: 44px;
+	text-align: right;
+}
+
+.teaching .right-column img {
+	padding-bottom: 40px;
+}
+
+
+/*camp location*/
+
+.blocktitle.where-camping {
+	text-align: right;
+	font-weight: bold;
+}
+
+.sticker02 {
+	position: absolute;
+}
+
+.where {
+	border-top: 4px solid #000;
+}
+
+.where li {
+	display: inline-block;
+	vertical-align: top;
+	padding: 7px 0;
+}
+
+.where li:first-child {
+	padding: 8px 0 0 10px;
+}
+
+.name {
+	display: block;
+	font-size: 16px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+.line {
+	width: 4px;
+	height: 40px;
+	background: #000;
+}
+
+.where li:nth-child(even) {
+	/*line*/
+	padding: 0 17px 0 0;
+}
+
+.where li:nth-child(odd) {
+	width: 230px;
+	padding-top: 10px;
+	line-height: 24px;
+}
+
+
+/************************************************************************************
+Writer
+*************************************************************************************/
+
+.writer .right {
+	padding-top: 250px;
+}
+
+.writer .container {
+	padding: 120px 0;
+	margin: 0 auto;
+}
+
+.writer .introduction {
+	width: 52%;
+	height: 580px;
+	text-align: center;
+}
+
+.mask {
+	padding: 80px 0 14px 0;
+}
+
+.mask img {
+	width: 164px;
+	height: 164px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.writer h2 {
+	width: 200px;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.writer h3 {
+	width: 200px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.4;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.cover {
+	display: inline-block;
+	margin-left: -4px;
+}
+
+.copyright {
+	color: #000;
+	text-align: right;
+}
+
+
+/*tags*/
+
+.tag {
+	text-align: right;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.tag li {
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: #666;
+	font-size: 14px;
+}
+
+.tag li a {
+	padding: 0 5px;
+	color: #333;
+}
+
+/*social-button*/
+#content .social-button {
+	padding: 20px 0 30px;
+}
+#content .social-button li {
+	width: 60px;
+	height: 32px;
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	padding: 0 5px 0 0;
+	cursor: pointer;
+}
+#content .btn {
+	width: 60px;
+	height: 32px;
+	display: block;
+	font-size: 20px;
+	color: white;
+}
+#content .icon-facebook:before, #content .icon-wechat:before, #content .icon-wechat:before, #content .icon-twitter:before, #content .icon-weibo:before {
+	padding-top: 6px;
+}
+#content .icon-facebook {
+	background: #0068b7;
+}
+#content .icon-facebook:hover {
+	background: #015798;
+}
+#content .icon-twitter {
+	background: #80c5da;
+}
+#content .icon-twitter:hover {
+	background: #40a0bd;
+}
+#content .icon-weibo {
+	background: #d92727;
+}
+#content .icon-weibo:hover {
+	background: #ca1010;
+}
+#content .icon-wechat {
+	background: #33baa4;
+}
+#content .icon-wechat:hover {
+	background: #19a68f;
+}
+.weixinQR{
+	width: 300px;	height: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 0 5px hsl(0, 0%, 70%);
+	position: fixed;	top: 205px;	left: 0;	right: 0;
+	z-index: 30;
+	display: none;
+}
+.weixinQR .fa{
+	width: 20px;	height: 20px;
+	float: right;
+	font-size: 18px;
+	color: grey;
+	position: absolute;	right: 8px;	top: 10px;
+	cursor: pointer;
+}
+.weixinQR h1{
+	padding-bottom: 15px;
+	font-size: 18px;
+	text-align: center;
+	border-bottom: 1px solid hsl(0,0%,95%);
+}
+.weixinQR img{
+	padding: 0 40px;
+}
+.weixinQR h2{
+	padding-top: 15px;
+	font-size: 14px;
+	border-top: 1px solid hsl(0,0%,95%);
+}
+.more {
+	float: right;
+	padding-right: 10px;
+}
+.introduction h3{
+	font-weight: bold;
+	color: #000;
+}
+.introduction p{
+	font-size: 14px;
+	color: #000;
+}
+
+
+@media all and (max-width: 1440px) {
+	#content{
+		width: 100%;
+	}
+}

@@ -1,0 +1,286 @@
+.Banner_pic {
+	width: 100%;
+	height: 440px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	display: block;
+	margin-left: auto;
+}.memubar {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.memubar .bar001 {
+	width: 100%;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3571b8;
+}
+.memubar .bar001 ul {
+	width: 640px;
+	height: 100px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.memubar .bar001 ul li {
+	display: block;
+	float: left;
+	margin-top: 35px;
+	margin-bottom: 13px;
+	width: 127px;
+	height: 30px;
+	text-align: center;
+	border-right: 1px solid #CCCCCC;
+}
+.memubar .bar001 ul li .bt01 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 30px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.memubar .bar001 ul li .bt01:hover {
+	color: #082e68;
+}
+.memubar .bar001 ul li .active {
+	color: #082e68;
+}
+.memubar .bar002 {
+	width: 100%;
+	height: 80px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #CCCCCC;
+}
+.memubar .bar002 ul {
+	width: 640px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.memubar .bar002 ul li {
+	display: block;
+	float: left;
+	margin-top: 26px;
+	margin-bottom: 6px;
+	width: 128px;
+	height: 28px;
+	text-align: center;
+
+}
+.memubar .bar002 ul li .bt02 {
+	text-align: center;
+	font-size: 28px;
+	line-height: 28px;
+	text-decoration: none;
+	color: #666666;
+}
+.memubar .bar002 ul li .bt02:hover {
+	color: #000000;
+}
+.memubar .bar002 ul li .active {
+	color: #000000;
+}
+.contents {
+	width: 640px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	height: 3100px;
+}
+body {
+	background-color: #eeeeee;
+}
+.dd {
+	width: 960px;
+	height: 85px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contents ul {
+	width: 640px;
+	display: block;
+	height: 3000px;
+	margin-top: 40px;
+	float: left;
+}
+.contents ul li {
+	width: 560px;
+	height: 560px;
+	display: block;
+	background-color: #F5F5F5;
+	float: left;
+	margin-bottom: 40px;
+	margin-left: 40px;
+}
+.contents ul li .bnbphoto {
+	width: 560px;
+	height: 300px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	float: left;
+}
+.contents ul li a h4 {
+	width: 300px;
+	height: 34px;
+	display: block;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	float: left;
+	margin-left: 130px;
+	margin-top: -18px;
+	font-size: 22px;
+	line-height: 34px;
+	text-align: center;
+	text-decoration: none;
+	color: #888888;
+}
+.contents ul li .product {
+	width: 560px;
+	height: 560px;
+	display: block;
+	text-decoration: none;
+	position: absolute;
+}
+.contents ul li .product .button {
+	width: 560px;
+	height: 80px;
+	background-color: #3571b8;
+	display: block;
+	font-size: 32px;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	line-height: 80px;
+	color: rgba(255,255,255,1.00);
+
+}
+
+.contents ul li a h1 {
+	display: block;
+	width: 500px;
+	margin-left: 30px;
+	margin-right: 30px;
+	float: left;
+	margin-top: 15px;
+	color: #333333;
+	font-size: 34px;
+	line-height: 36px;
+	text-align: center;
+	text-decoration: none;
+	height: 70px;
+}
+.contents ul li a .sele {
+	color: #FF4C4C;
+	font-size: 24px;
+	line-height: 24px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	float: left;
+	width: 500px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+.contents ul li .product-hover {
+	width: 560px;
+	height: 560px;
+	display: none;
+	background-color: rgba(0,0,0,0.65);
+	position: absolute;
+	z-index: 19;
+	text-align: center;
+}
+.contents ul li .product:hover + .product-hover ,
+.contents ul li .product-hover:hover
+{
+	display: none;
+}.contents ul li .product-hover .botton {
+	width: 560px;
+	height: 560px;
+	background-repeat: no-repeat;
+	background-image: url(../images/button.png);
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: none;
+	background-size: 370px 432px;
+}
+.Banner_pic .all .cnunionpay {
+	background-repeat: no-repeat;
+	background-size: 500px 217px;
+	z-index: 1;
+	display: block;
+	margin-top: 45px;
+	overflow: auto;
+	position: absolute;
+	margin-left: 105px;
+	width: 500px;
+	height: 217px;
+}
+.Banner_pic .all {
+	width: 640px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 250px;
+}
+.precautions {
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+	display: block;
+	overflow: auto;
+}
+.precautions .a1 {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 24px;
+	color: #666666;
+	line-height: 24px;
+	text-align: left;
+	text-decoration: none;
+	margin-left: 30px;
+}
+.precautions ul {
+	width: 580px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.precautions ul li {
+	color: #666666;
+	font-size: 18px;
+	text-align: left;
+	text-decoration: none;
+	line-height: 22px;
+	list-style-type: disc;
+	list-style-position: inside;
+	text-indent: -15px;
+	margin-left: 18px;
+	margin-bottom: 15px;
+}
+.precautions ul li a {
+	text-decoration: none;
+	color: #3571b8;
+}

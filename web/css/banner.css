@@ -1,0 +1,324 @@
+/*business*/
+.business_banner {
+	width: 1440px;
+	height: 1360px;
+	margin: auto;
+	background: url(/web/img/aboutus/business_cooperation.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+/* 404 */
+.error404_banner {
+	width: 1440px;
+	height: 630px;
+	margin: auto;
+	display: block;
+	background: url(/web/img/aboutus/404.jpg) 50% 50% no-repeat;
+	background-size: cover;
+}
+
+
+/* about us*/
+.aboutus1_banner, .aboutus2_banner, .aboutus3_banner {
+	width: 1440px;
+	height: 1082px;
+	margin: auto;
+	background: url(/web/img/aboutus/kv.jpg) 50% 50% no-repeat;
+	background-size: cover;
+}
+.aboutus2_banner {
+	height: 1107px;
+	background-image: url(/web/img/aboutus/content.jpg);
+}
+.aboutus3_banner {
+	height: 440px;
+	background-image: url(/web/img/aboutus/footer.jpg);
+}
+
+/* best priceguarantee*/
+.bestpriceguarantee_banner {
+	width: 1440px;
+	height: 894px;
+	margin: 0 auto;
+	background: url(/web/img/aboutus/bestpriceguarantee01.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.guarantee-container{
+	width: 1440px;
+	margin: 0 auto;
+	background-color: hsl(54, 99%, 58%);
+}
+.guarantee-container *{
+	font-family: arial, "Microsoft JhengHei";
+}
+.guarantee-container section{
+	width: 600px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.guarantee-container section h1, .guarantee-container section h2{
+	margin-bottom: 20px;
+	font-size: 22px;
+}
+.guarantee-container section p{
+	margin-bottom: 15px;
+}
+.guarantee-container section .showEdit{
+	margin-left: 12px;
+	padding: 10px 20px;
+	background-color: black;
+	color: yellow;
+	text-decoration: none;
+	line-height: 1.2;
+	display: inline-block;
+}
+.guarantee-container section .ul{
+	margin-left: 25px;
+	list-style: disc;
+}
+.guarantee-container section .ul > li, .guarantee-container section .ul ul li{
+	margin-bottom: 10px;
+	line-height: 1.5;
+}
+.guarantee-container section:last-of-type .ul{
+	list-style: numeric;
+}
+.guarantee-container section .ul ul{
+	margin: 10px 0 0 25px;
+	list-style: disc;
+}
+.wrapper_1{
+	display: none;
+}
+.wrapper_1 .sheet {
+	display: block;
+	width: 760px;
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	margin-bottom: 40px;
+	font-family: arial, "Microsoft JhengHei";
+}
+.wrapper_1 .sheet .abc01 {
+	width: 360px;
+	display: block;
+	float: left;
+}
+.wrapper_1 .sheet .abc02 {
+	width: 400px;
+	display: block;
+	float: left;
+}
+.wrapper_1 .sheet .abc03 {
+	width: 760px;
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+.wrapper_1 .sheet .abc01 .member_row {
+	display: block;
+	height: 50px;
+}
+.wrapper_1 .sheet .abc01 .member_row .name_title {
+	width: 120px;
+	display: block;
+	text-align: right;
+	color: #888888;
+	font-size: 15px;
+	line-height: 15px;
+	float: left;
+	padding-right: 10px;
+	margin-top: 17px;
+}
+.wrapper_1 .sheet .abc02 .member_row {
+	display: block;
+	height: 30px;
+}
+.wrapper_1 .sheet .abc02 .member_row .name_title {
+	width: 110px;
+	display: block;
+	text-align: right;
+	color: #888888;
+	font-size: 15px;
+	line-height: 15px;
+	float: left;
+	padding-right: 10px;
+	margin-top: 6px;
+}
+.wrapper_1 .sheet .abc02 .member_row .name_title_2 {
+	width: 275px;
+	display: block;
+	float: left;
+	color: #000000;
+	font-size: 0.875rem;
+	line-height: 20px;
+	overflow: hidden;
+	text-decoration: none;
+	height: 20px;
+	margin-top: 5px;
+}
+.wrapper_1 .sheet .abc01 .member_row .textfield-01 {
+	width: 190px;
+	height: 36px;
+	display: block;
+	float: left;
+	border: 1px solid #e0e0e0;
+	color: #000000;
+	font-size: 0.875rem;
+	line-height: 18px;
+	padding-left: 8px;
+	margin-top: 8px;
+}
+.wrapper_1 .sheet .abc01 .member_row .textfield-02 {
+	width: 95px;
+	height: 36px;
+	display: block;
+	float: left;
+	border: 1px solid #e0e0e0;
+	color: #000000;
+	font-size: 0.875rem;
+	line-height: 18px;
+	padding-left: 10px;
+	margin-top: 8px;
+}
+.wrapper_1 .sheet .abc03 .member_row {
+	width: 240px;
+	display: block;
+	text-align: right;
+	color: #888888;
+	font-size: 15px;
+	line-height: 15px;
+	float: left;
+	margin-bottom: 5px;
+}
+.wrapper_1 .sheet .abc03 .member_row .name_title {
+	width: 120px;
+	display: block;
+	text-align: right;
+	color: #888888;
+	font-size: 15px;
+	line-height: 15px;
+	float: left;
+	padding-right: 10px;
+	margin-top: 17px;
+	margin-right: 110px;
+	margin-bottom: 5px;
+}
+.wrapper_1 .sheet .abc03 .member_row .textfield-02 {
+	width: 200px;
+	height: 30px;
+	display: block;
+	border-radius: 4px;
+	color: #000000;
+	font-size: 15px;
+	line-height: 15px;
+	margin-top: 8px;
+	float: left;
+	margin-left: 35px;
+}
+.wrapper_1 .sheet .abc03 .txt_02 {
+	width: 760px;
+	display: block;
+	text-align: center;
+	color: #888888;
+	font-size: 13px;
+	line-height: 13px;
+	float: left;
+	margin-top: 12px;
+	margin-bottom: 50px;
+}
+.wrapper_1 .sheet .bnt {
+	font-size: 20px;
+	line-height: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	letter-spacing: 5px;
+	text-decoration: none;
+	display: block;
+	width: 260px;
+	background-color: #FEEA27;
+	float: left;
+	margin-left: 250px;
+	color: #000000;
+}
+.wrapper_1 .sheet .abc03 .member_row .photo-pic {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	display: block;
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-color: #CCCCCC;
+	margin-left: 130px;
+	margin-top: 12px;
+	background-image: url(/web/img/aboutus/index_banner_big3.jpg);
+}
+.wrapper_1 .sheet .abc03 .member_row .name_txt {
+	display: block;
+	display: block;
+	text-align: center;
+	color: #888888;
+	font-size: 15px;
+	line-height: 15px;
+	float: left;
+	margin-top: 5px;
+	padding-left: 133px;
+	text-decoration: none;
+	width: 100px;
+}
+.wrapper_1 .sheet .abc03 .member_row #pic1 {
+	display: none;
+}
+.wrapper_1 .sheet .abc03 .member_row #pic2 {
+	display: none;
+}
+.wrapper_1 .sheet .abc03 .member_row #pic3 {
+	display: none;
+}
+.wrapper_1 .sheet .abc03 .member_row #upload {
+	cursor: pointer;
+	left: 84px;
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin-top: -20px;
+	margin-left: 130px;
+	background-image: url(/web/img/aboutus/choose-file.png);
+	float: left;
+	background-repeat: no-repeat;
+}
+.wrapper_1 .sheet h6 {
+	color: #000000;
+	font-size: 24px;
+	line-height: 1.5;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 20px;
+	display: block;
+}
+.wrapper_1 .sheet .abc01 .member_row .currency {
+	width: 85px;
+	height: 40px;
+	display: block;
+	margin-top: 8px;
+	float: left;
+	margin-right: 8px;
+	border: 1px solid #e0e0e0;
+	color: #000000;
+	font-size: 0.875rem;
+	line-height: 18px;
+	padding-left: 8px;
+	font-family: arial, "Microsoft JhengHei";
+}
+
+
+@media all and (max-width: 1440px) {
+	.error404_banner, .aboutus1_banner, .aboutus2_banner, .aboutus3_banner, .business_banner, .bestpriceguarantee_banner, .guarantee-container, .wrapper_1{
+		width: 100%;
+	}
+}

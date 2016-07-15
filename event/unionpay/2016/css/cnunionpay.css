@@ -1,0 +1,329 @@
+.Banner_pic {
+	width: 100%;
+	height: 380px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}.memubar {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: #FFFF00;
+}
+.memubar .bar001 {
+	width: 100%;
+	height: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3571b8;
+}
+.memubar .bar001 ul {
+	width: 750px;
+	height: 50px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 105px;
+	padding-right: 105px;
+	display: flex;
+	justify-content: space-around;
+}
+.memubar .bar001 ul li {
+	display: block;
+	float: left;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	width: 150px;
+	height: 24px;
+	text-align: center;
+
+}
+.memubar .bar001 ul li .bt01 {
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.memubar .bar001 ul li .bt01:hover {
+	color: #082e68;
+}
+.memubar .bar001 ul li .active {
+	color: #FEE600;
+}
+.memubar .bar002 {
+	width: 100%;
+	height: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #CCCCCC;
+}
+.memubar .bar002 ul {
+	width: 750px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-left: 105px;
+	padding-right: 105px;
+	display: flex;
+	justify-content: space-around;
+}
+.memubar .bar002 ul li {
+	display: block;
+	float: left;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	width: 150px;
+	height: 16px;
+	text-align: center;
+}
+.memubar .bar002 ul li .bt02 {
+       text-align: center;
+	font-size: 14px;
+	line-height: 16px;
+	text-decoration: none;
+	color: #666666;
+}
+.memubar .bar002 ul li .bt02:hover {
+	color: #000000;
+}
+.memubar .bar002 ul li .active {
+	color: #3571b8;
+}
+.contents {
+	width: 960px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+       padding-top: 10px;}
+body {
+	background-color: #eeeeee;
+}
+.h {
+	background-image: url(../images/hbg.jpg);
+	width: 100%;
+	height: 141px;
+}
+.h .hh {
+	width: 1000px;
+	height: 141px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/h.jpg);
+}
+.f {
+	width: 100%;
+	height: 290px;
+	display: block;
+	background-image: url(../images/fbg.jpg);
+}
+.f .ff {
+	background-image: url(../images/f.jpg);
+	width: 1000px;
+	height: 290px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+.dd {
+	width: 960px;
+	height: 85px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contents ul {
+	margin-left: 100px;
+	margin-right: 80px;
+	width: 780px;
+	display: block;
+	margin-top: 40px;
+}
+.contents ul li {
+	width: 240px;
+	height: 280px;
+	display: block;
+	background-color: #F5F5F5;
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 20px;
+}
+.contents ul::after{
+	content: "";
+       display: table;
+       clear: both;
+}
+.contents ul li::after{
+	content: "";
+        display: table;
+        clear: both;
+}
+.contents ul li .bnbphoto {
+	width: 240px;
+	height: 180px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	float: left;
+}
+.contents ul li a h4 {
+	width: 155px;
+	height: 24px;
+	display: block;
+	background-color: #FFFFFF;
+	border-radius: 14px;
+	float: left;
+	margin-left: 42px;
+	margin-top: -12px;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #888888;
+}
+.contents ul li .product {
+	width: 240px;
+	height: 280px;
+	display: block;
+	text-decoration: none;
+	position: absolute;
+}
+li .product .button {
+	display: none;
+}
+
+.contents ul li a h1 {
+	display: block;
+	width: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	margin-top: 10px;
+	color: #333333;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 6px;
+	height: 40px;
+}
+.contents ul li a .sele {
+	color: #FF4C4C;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	float: left;
+	width: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.contents ul li .product-hover {
+	width: 240px;
+	height: 280px;
+	display: none;
+	background-color: rgba(0,0,0,0.65);
+	position: absolute;
+	z-index: 19;
+	text-align: center;
+}
+.contents ul li .product:hover + .product-hover ,
+.contents ul li .product-hover:hover
+{
+	display: block;
+}.contents ul li .product-hover .botton {
+	width: 240px;
+	height: 280px;
+	background-repeat: no-repeat;
+	background-image: url(../images/button.png);
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: block;
+	background-size: 240px 280px;
+}
+.Banner_pic .all .cnunionpay {
+	background-repeat: no-repeat;
+	background-size: 420px 182px;
+	width: 420px;
+	height: 182px;
+	z-index: 1;
+	display: block;
+	margin-top: 50px;
+	overflow: auto;
+	position: absolute;
+	margin-left: 300px;
+}
+.Banner_pic .all {
+	width: 960px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 250px;
+}
+.precautions {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+	display: block;
+}
+.precautions .a1 {
+	display: block;
+	margin-left: 90px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: #666666;
+	line-height: 18px;
+	text-align: left;
+	text-decoration: none;
+}
+.precautions ul {
+	width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.precautions ul li {
+	color: #666666;
+	font-size: 14px;
+	text-align: left;
+	text-decoration: none;
+	line-height: 18px;
+	list-style-type: disc;
+	list-style-position: inside;
+	text-indent: -15px;
+	margin-left: 18px;
+	margin-bottom: 10px;
+}
+.precautions ul li a {
+	text-decoration: none;
+	color: #3571b8;
+}
+.fa_map {
+  display: -webkit-inline-box;  
+  font-style: normal;  
+  font-family: FontAwesome;  
+  float: none;
+  margin-right: 3px;
+}

@@ -1,0 +1,165 @@
+@import url(menu.css);
+.item-list:after {
+	content: '';
+	display: block;
+}
+.pl-20 {
+	padding-left: 20px;
+}
+.main {
+	background-color: #eee;
+	width: 100%;
+}
+.top-container {
+	width: 100%;
+}
+.top-container .container {
+	position: relative;
+	width: 100%;
+}
+.banner {
+	width: 100%;
+	height: 640px;
+}
+.banner .kv {
+	height: 640px;
+	background-image: url('../img/kv.jpg?1448012193');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.contents {
+	clear: both;
+	padding-top: 34px;
+	padding-bottom: 50px;
+}
+.contents .container *{
+	font-size: 14px;
+	box-sizing: border-box;
+}
+.sort-bar {
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	color: #999;
+	font-size: 14px;
+	width: 940px;
+	height: 42px;
+	line-height: 24px;
+	padding: 9px;
+	margin: 0 auto 34px;
+}
+.sort-bar div.select {
+	float: left;
+}
+.sort-bar .sort-result {
+	float: right;
+}
+div.select {
+	border-right: 1px solid #DDD;
+	background-color: #eee;
+	position: relative;
+}
+.contents select, .author-area select, .suitable-trip select {
+	background: url("../img/select-arrow.png") no-repeat right center #eee;
+	border: none;
+	color: #999;
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	position: relative;
+	padding-right: 40px;
+	z-index: 10;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+.contents select::-ms-expand, .author-area select::-ms-expand, .suitable-trip select::-ms-expand {
+	display: none;
+}
+.item-list {
+	padding-bottom: 60px;
+}
+.item-list:after {
+	clear: both;
+	width: 100%;
+}
+.item-list li {
+	-webkit-box-shadow: 0 0 4px #DDD;
+	-moz-box-shadow: 0 0 4px #DDD;
+	box-shadow: 0 0 4px #DDD;
+	background-color: #FFF;
+	float: left;
+	width: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	position: relative;
+	text-align: center;
+}
+.item-list li .hotel-name {
+	color: #222;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 0 10px;
+}
+.item-list li .status {
+	color: #999;
+	margin-bottom: 20px;
+}
+.item-list li .status *{
+	font-size: 14px;
+	color: hsl(0, 0%, 60%);
+}
+.item-list li .status span {
+	margin-left: 8px;
+}
+.item-list li .status span:first-child {
+	margin-left: 0;
+}
+.item-list li .status span i {
+	margin-right: 3px;
+}
+.item-list li .price {
+	color: #F05A30;
+	font-size: 24px;
+	margin-bottom: 12px;
+}
+.item-list li .price .small {
+	font-size: 18px;
+	padding-right: 7px;
+}
+.item-list li .advisor {
+	color: #222;
+	line-height: 17px !important;
+	padding-bottom: 24px;
+}
+.item-list li .advisor i {
+	background-image: url('../img/icon-advisor.jpg?1448268869');
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	width: 90px;
+	height: 17px;
+	margin: 0 auto 8px;
+}
+.img-collect {
+	background-image: url('../img/tour/sprite_tour.png?1448278777');
+	background-repeat: no-repeat;
+	cursor: pointer;
+	width: 35px;
+	height: 39px;
+	background-position: -164px -90px;
+	position: absolute;
+	top: 0;
+	left: auto;
+	right: 10px;
+}
+.img-collect i.fa {
+	color: #222;
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+}
+.img-collect i.fa.fa-heart {
+	color: #ff8c7a;
+}
